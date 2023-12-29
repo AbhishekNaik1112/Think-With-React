@@ -14,6 +14,23 @@
 // const container = document.getElementById('react-container');
 // ReactDOM.render(React.createElement(Container),container);
 
+
+//Babel/JSX Render
+// class ReactContainer extends React.Component{
+//     // JSX tags
+//     // JSX there should be one parent element
+//       render(){
+//           return (
+//           <div>Hello! Welcome to Kalvium   
+//              <div>Let's rock and roll - This is babel</div>
+//          </div> )
+//       };  
+//   }
+
+const container = document.getElementById('react-container');
+// Direclty pass the component to render
+ReactDOM.render(<ReactContainer/>,container);    
+
 //Progression 3
 class ReactContainer extends React.Component{
     // constructor - to initialize the state 
